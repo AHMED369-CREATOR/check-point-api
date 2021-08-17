@@ -1,0 +1,24 @@
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.item .user{
+    width: 300px;
+    
+     margin: 10px; 
+    background-color: 	rgb(144,144,144);
+    padding : 10px;
+    color: rgb(232,232,232);
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px 	rgb(245,245,245);
+    border: grey solid;
+}
+
+.item .user:hover{
+    background-color: rgb(104,104,104);
+}
